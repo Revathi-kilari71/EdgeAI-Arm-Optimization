@@ -24,7 +24,7 @@ dataset = datasets.FashionMNIST(
     transform=transform
 )
 
-test_dataset = Subset(dataset, range(100))
+test_dataset = dataset
 
 test_loader = DataLoader(
     test_dataset,
