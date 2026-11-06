@@ -1,0 +1,10 @@
+
+EDGEAI C++ INFERENCE BENCHMARK
+Warm-up runs: 10
+Benchmark runs: 100
+Average latency: 0.9326 ms
+Minimum latency: 0.4655 ms
+Maximum latency: 1.8554 ms
+Throughput: 1072.2504 images/sec
+
+C++ Benchmark Completed Successfully!
