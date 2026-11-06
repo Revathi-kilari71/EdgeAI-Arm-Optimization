@@ -6,8 +6,12 @@ import onnxruntime as ort
 model_path = "deployment/mobilenetv3_static_int8.onnx"
 input_path = "cpp/test_image.bin"
 
+options = ort.SessionOptions()
+options.intra_op_num_threads = 1
+options.graph_optimization_level = ort.GraphOptimizationLevel.ORT_ENABLE_ALL
 session = ort.InferenceSession(
     model_path,
+    sess_options=options,
     providers=["CPUExecutionProvider"]
 )
 
