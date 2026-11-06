@@ -18,3 +18,11 @@ results/
 *.pt
 
 EdgeAI_Deployment.zip
+# C++ compiled files
+*.exe
+*.dll
+*.bin
+
+# Python cache
+__pycache__/
+*.pyc
