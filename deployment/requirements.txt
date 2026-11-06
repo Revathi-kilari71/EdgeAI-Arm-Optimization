@@ -1,3 +1,6 @@
-numpy
-onnxruntime
-Pillow
+numpy==2.4.6
+onnxruntime==1.29.0
+Pillow==13.0.0
+torch==2.15.0
+torchvision==0.29.2
+scikit-learn==1.9.1
